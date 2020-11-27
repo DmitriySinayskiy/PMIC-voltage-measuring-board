@@ -1,0 +1,80 @@
+Configuration	steamerSSFP
+STM32CubeMX 	5.1.0
+Date	09/23/2019
+MCU	STM32F105VCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USB_OTG_FS	Device_Only	USB_OTG_FS_DM	PA11
+USB_OTG_FS	Device_Only	USB_OTG_FS_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+12	OSC_IN	RCC_OSC_IN	
+13	OSC_OUT	RCC_OSC_OUT	
+46	PE15	GPIO_Output	
+70	PA11	USB_OTG_FS_DM	
+71	PA12	USB_OTG_FS_DP	
+72	PA13	SYS_JTMS-SWDIO	
+76	PA14	SYS_JTCK-SWCLK	
+92	PB6	I2C1_SCL	
+93	PB7	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USB_OTG_FS	Device_Only	USB_OTG_FS_DM	PA11
+USB_OTG_FS	Device_Only	USB_OTG_FS_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+12	OSC_IN	RCC_OSC_IN	
+13	OSC_OUT	RCC_OSC_OUT	
+46	PE15	GPIO_Output	
+70	PA11	USB_OTG_FS_DM	
+71	PA12	USB_OTG_FS_DP	
+72	PA13	SYS_JTMS-SWDIO	
+76	PA14	SYS_JTCK-SWCLK	
+92	PB6	I2C1_SCL	
+93	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : steamerSSFP
+Project Folder : D:\SteamerSSFP\steamerSSFP
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F1 V1.7.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
